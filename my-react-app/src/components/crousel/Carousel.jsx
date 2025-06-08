@@ -8,7 +8,7 @@ import {useSelector} from "react-redux";
 
 import dayjs from "dayjs";
 
-const Carousel=()=>{
+ export const Carousel=()=>{
     const carouselContainer = useRef();
 return (
 
@@ -60,3 +60,5 @@ return (
 );
 
 }
+
+export default Carousel;

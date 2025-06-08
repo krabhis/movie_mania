@@ -1,14 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+
+import CircleRating from './components/rating/CircleRating'
+import  Carousel from './components/crousel/Carousel'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
    <>
-   
+   <Carousel/>
+   <CircleRating />
    </>
   )
 }
